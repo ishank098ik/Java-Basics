@@ -27,9 +27,9 @@ public class Loops {
         int a = 0;
         do{
             System.out.println(a);
-            i++;
+            a++;
         } while (a < 11);
-        
+
     }
     
 }
