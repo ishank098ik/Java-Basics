@@ -23,8 +23,9 @@ public class MathLib {
         // SQRT of num
 
         int a2 = sc.nextInt();
+        int c2 = (int) Math.sqrt(a2);
         
-        System.out.println(Math.sqrt(a2));
+        System.out.println(c2);
 
         // Powers of  two number
 
@@ -49,15 +50,17 @@ public class MathLib {
        // Floor
 
        double a6 = sc.nextDouble();
+       double c6 = Math.floor(a6);
 
-       System.out.println(Math.floor(a6));
+       System.out.println(c6);
 
 
        // ceil
 
        double a7 = sc.nextDouble();
+       double c7 = Math.ceil(a7);
 
-       System.out.println(Math.ceil(a7));
+       System.out.println(c7);
 
        // Random
 
