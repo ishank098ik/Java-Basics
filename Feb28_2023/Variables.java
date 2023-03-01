@@ -25,7 +25,7 @@ public class Variables {
 
 
          // int to long, float, double
-         
+
           int num = 46;
           long numL = (long)num;
           System.out.println(" Long of num :"+ numL);
@@ -71,6 +71,24 @@ public class Variables {
 
           int numI3 = (int)num3;
           System.out.println(" Int of num3 " + numI3);
+
+          // Where conversions fails
+          // When long / double value exceeds the range of int, float then it Either gives garbage values or give errors
+
+          long num4 = Long.MAX_VALUE;
+          int numI4 = (int)num4;
+          System.out.println(" Int of num4 :"+ numI4);
+
+          float numF4 = (float)num4;
+          System.out.println(" Float of num4 " + numF4);
+
+          double num5 = 400000000000.5454546444134468453645;
+          float numF5 = (float)num5;
+          System.out.println(" Float of num5 " + numF5);
+
+          int numI5 = (int)num5;
+          System.out.println(" Int of num5 " + numI5);
     }
+
     
 }
