@@ -8,15 +8,17 @@ public class MathLib {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
+        int c = Math.max(a, b);
 
-        System.out.println(Math.max(a, b));
+        System.out.println(c);
 
         // min of two numbers
 
         int a1 = sc.nextInt();
         int b1 = sc.nextInt();
+        int c1 = Math.min(a1, b1);
 
-        System.out.println(Math.min(a1, b1));
+        System.out.println(c1);
 
         // SQRT of num
 
@@ -28,9 +30,9 @@ public class MathLib {
 
         int a3 = sc.nextInt();
         int b3 = sc.nextInt();
+        int c3 = (int) Math.pow(a3, b3); // int to double conversion
 
-
-        System.out.println(Math.pow(a3, b3));
+        System.out.println(c3);
 
         // Absolute of number
 
@@ -61,6 +63,7 @@ public class MathLib {
 
        double a8 = Math.random();
        double b8 = Math.random();
+
 
        System.out.println(a8);
        System.out.println(b8);
