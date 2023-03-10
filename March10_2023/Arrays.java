@@ -38,7 +38,5 @@ public class Arrays{
                 System.out.println("x found at index :" + i);
             }
         }
-
-
     }
 }
