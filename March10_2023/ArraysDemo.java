@@ -2,7 +2,7 @@ package March10_2023;
 
 import java.util.Scanner;
 
-public class Arrays{
+public class ArraysDemo{
     public static void main(String args[]) {
         // int [] marks = new int[3];
         // int marks[] = new int [3];
@@ -33,10 +33,10 @@ public class Arrays{
 
         // output
 
-        for(int i = 0; i < numbers.length; i++){
-            if(numbers[i] == x){
-                System.out.println("x found at index :" + i);
-            }
-        }
+        // for(int i = 0; i < numbers.length; i++){
+        //     if(numbers[i] == x){
+        //         System.out.println("x found at index :" + i);
+        //     }
+        // }
     }
 }
