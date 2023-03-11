@@ -1,6 +1,6 @@
 package March11_2023;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class MissingNumber {
     public static void main(String[] args) {
@@ -10,6 +10,7 @@ public class MissingNumber {
         for(int i = 0; i < arr.length; i++){
             arr[i] = sc.nextInt();
         }
+        Arrays.sort(arr);
         for(int i = 0; i < arr.length; i++){
             if(arr[i] != i+1){ // i != arr[i]-1
                 System.out.print(i+1); // System.out.print(arr[i]-1);
