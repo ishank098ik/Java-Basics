@@ -14,22 +14,24 @@ public class TwoPointers {
         int t = sc.nextInt();
         int start = 0;
         int end = arr.length-1;
-        int mid = (start + end)/2;
         boolean flag = false;
         while(start <= end){
+            int mid = (start + end)/2;
             if(arr[mid] == t){
                 System.out.print("t found at index :" + mid);
                 flag = true;
                 break;
-            } else if
-                (arr[mid] < t);
-              else{
+            } else if(arr[mid] < t){
+                start = mid+1;
+             
+               }   else{
                     end = (mid-1);
                 }
+            
+                
+            } 
             if(flag == false){
                 System.out.print(" NOT FOUND ");
-                break;
-            } 
         }
     }
     
